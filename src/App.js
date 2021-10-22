@@ -1,9 +1,9 @@
+import Navbar from "./Navbar/Navbar";
+
 function App() {
   return (
     <div className="App">
-      <h1 className="bg-red-500">
-        Mamak
-      </h1>
+     <Navbar></Navbar>
     </div>
   );
 }
