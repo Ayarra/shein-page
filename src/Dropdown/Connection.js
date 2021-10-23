@@ -1,7 +1,7 @@
 function Connection() {
   return (
-    <div className="absolute z-10 hidden group-hover:block">
-      <div className="mt-6 mr-9 px-6 py-4 shadow-lg">
+    <div className="absolute z-10 hidden mt-6 bg-white group-hover:block">
+      <div className=" mr-9 px-6 py-4 shadow-lg">
         <button className="text-xs font-bold pb-3">Me Connecter</button>
         <hr></hr>
         <button className="text-xs  pb-2 text-customB hover:text-black">

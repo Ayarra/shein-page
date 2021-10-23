@@ -1,7 +1,7 @@
 function Panier() {
   return (
-    <div className=" absolute  right-5 w-96 z-10 hidden group-hover:block">
-      <div className="mt-6 shadow-lg text-customB">
+    <div className=" absolute mt-6  right-5 bg-white w-96 z-10 hidden group-hover:block">
+      <div className="shadow-lg text-customB">
         <p className="font-light text-xs text-center py-5">
           Votre panier est vide
         </p>

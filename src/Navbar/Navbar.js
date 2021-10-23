@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="bg-customA flex justify-between">
       <MenuNavbar></MenuNavbar>
-      <button className="font-extrabold text-5xl">S H E I N</button>
+      <button className="font-bold text-5xl">S H E I N</button>
       <UtilNavbar></UtilNavbar>
     </div>
   );

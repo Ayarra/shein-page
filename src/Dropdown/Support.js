@@ -1,9 +1,11 @@
 function Support() {
   return (
-    <div className="absolute z-10 hidden bg-grey-200 group-hover:block">
-      <div className="mt-6 mr-9 p-6 bg-white  shadow-lg">
-        <p className="">Service&nbsp;à&nbsp;la&nbsp;Clientèle</p>
-        <p className="">Que pouvons-nous faire pour vous?</p>
+    <div className="absolute mt-6 right-5 bg-white  z-10 hidden bg-grey-200 group-hover:block">
+      <div className=" p-6 text-left bg-white  shadow-lg">
+        <p className="font-semibold text-sm pb-2">Service à la Clientèle</p>
+        <p className="text-sm text-customD">
+          Que pouvons-nous faire pour vous?
+        </p>
       </div>
     </div>
   );
