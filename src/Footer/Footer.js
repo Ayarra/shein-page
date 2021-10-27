@@ -3,10 +3,12 @@ import FooterLink from "./FooterLink";
 
 function Footer() {
   return (
-    <div className="bg-customA pt-10 px-80 pb-5">
-      <div className="flex">
-        <FooterLink></FooterLink>
-        <FooterContact></FooterContact>
+    <div className="bg-customA pt-10">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row">
+          <FooterLink></FooterLink>
+          <FooterContact></FooterContact>
+        </div>
       </div>
     </div>
   );

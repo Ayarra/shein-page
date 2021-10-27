@@ -1,6 +1,6 @@
 function MenuNavbar() {
   return (
-    <div className="flex">
+    <div className="hidden md:flex">
       <button className="bg-white inline-block px-4 text-black font-semibold">
         FEMME
       </button>

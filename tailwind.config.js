@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      outline: {
+        red: "1px solid red",
+      },
       colors: {
         customA: "#F7F8FA",
         customB: "#636364",

@@ -21,7 +21,7 @@ function FooterContact() {
     ></img>
   ));
   return (
-    <div>
+    <div className="p-3">
       <p className="text-xs font-semibold">TROUVEZ-NOUS SUR</p>
       <div className="flex pb-3">{icons}</div>
       <p className="text-xs font-semibold pb-2">

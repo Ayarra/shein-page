@@ -24,7 +24,7 @@ function ProductModel(props) {
   return (
     <div className="mt-6 mb-4">
       <p className="font-semibold text-sm mb-3">Modèle</p>
-      <div className="flex">{imageCard}</div>
+      <div className="flex flex-wrap">{imageCard}</div>
     </div>
   );
 }

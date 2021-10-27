@@ -20,7 +20,7 @@ const menuRender = menu.map((item) => (
 
 function SubNavbar() {
   return (
-    <div className="flex justify-between px-9 shadow-md">
+    <div className="hidden md:flex justify-between px-9 shadow-md">
       <div>{menuRender}</div>
 
       <div className="bg-white flex items-center">

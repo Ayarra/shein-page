@@ -1,6 +1,6 @@
 function ProductDescription(props) {
   return (
-    <div className="flex w-8/12 pr-5">
+    <div className="flex md:w-8/12 pr-5 pb-14">
       <div>
         <img
           src={props.name}

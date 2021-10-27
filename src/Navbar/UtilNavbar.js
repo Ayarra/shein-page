@@ -5,7 +5,7 @@ import Global from "../Dropdown/Global";
 
 function UtilNavbar() {
   return (
-    <div className="flex pr-5">
+    <div className=" pr-10 hidden md:flex">
       <div className=" group hover:bg-white py-5 mx-1">
         <button className="p-1">
           <svg

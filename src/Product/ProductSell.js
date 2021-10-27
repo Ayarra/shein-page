@@ -5,7 +5,7 @@ import ProductBuyer from "./ProductBuyer";
 
 function ProductSell(props) {
   return (
-    <div className="w-1/2">
+    <div className="md:w-1/2">
       <ProductIntro name={props.name} price={props.price}></ProductIntro>
       <hr />
       <ProductModel setName={props.setName}></ProductModel>
